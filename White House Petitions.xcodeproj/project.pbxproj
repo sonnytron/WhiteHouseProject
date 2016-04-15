@@ -13,6 +13,7 @@
 		2982CC9D1CB9CE1100BAC8DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2982CC9B1CB9CE1100BAC8DA /* Main.storyboard */; };
 		2982CC9F1CB9CE1100BAC8DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2982CC9E1CB9CE1100BAC8DA /* Assets.xcassets */; };
 		2982CCA21CB9CE1100BAC8DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2982CCA01CB9CE1100BAC8DA /* LaunchScreen.storyboard */; };
+		2982CCAD1CB9D1A900BAC8DA /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2982CCAC1CB9D1A900BAC8DA /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2982CC9E1CB9CE1100BAC8DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2982CCA11CB9CE1100BAC8DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2982CCA31CB9CE1100BAC8DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2982CCAC1CB9D1A900BAC8DA /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		2982CC941CB9CE1100BAC8DA /* White House Petitions */ = {
 			isa = PBXGroup;
 			children = (
+				2982CCA91CB9D05A00BAC8DA /* Helpers */,
 				2982CC951CB9CE1100BAC8DA /* AppDelegate.swift */,
 				2982CC971CB9CE1100BAC8DA /* MasterViewController.swift */,
 				2982CC991CB9CE1100BAC8DA /* DetailViewController.swift */,
@@ -65,6 +68,14 @@
 				2982CCA31CB9CE1100BAC8DA /* Info.plist */,
 			);
 			path = "White House Petitions";
+			sourceTree = "<group>";
+		};
+		2982CCA91CB9D05A00BAC8DA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2982CCAC1CB9D1A900BAC8DA /* SwiftyJSON.swift */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 				2982CC9A1CB9CE1100BAC8DA /* DetailViewController.swift in Sources */,
 				2982CC981CB9CE1100BAC8DA /* MasterViewController.swift in Sources */,
 				2982CC961CB9CE1100BAC8DA /* AppDelegate.swift in Sources */,
+				2982CCAD1CB9D1A900BAC8DA /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
